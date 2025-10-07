@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/logosem.png">
+    <title>Central Pet | Cuide do Seu Pet</title>
+</head>
+<style>
+    *,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+Header{
+    display: flex;
+    background-color: chocolate;
+    align-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+}
+.imagemLogo{
+    height: 80px;
+    width: 80px;
+    display: flex;
+    margin-left: 30px;
+    
+}
+
+.letraDestaque{
+    margin-right: 20px;
+    font-size: 28px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*--------------------------------------------------------------------------*\
+----------------| Organização da Lista de clicaveis |-------------------------
+\*--------------------------------------------------------------------------*/
+
+
+.clicaveis a{
+    text-decoration: none;
+    
+}
+
+.clicaveis{
+    list-style-type: none;
+}
+</style>
+<body>
+    <Header>
+        <div class="logoHeader">
+            <a href="index.html" class="imagemLogo"><img src="assets/images/logosem.png" alt="Logo do pet"></a>
+        </div>
+        <div>
+            <p class="letraDestaque">cuide do seu pet</p>
+        </div>
+        <div class="navegacao">
+            <nav>
+                <ul>
+                  <li class="clicaveis">
+                    <a href="">Loja</a>
+                    <a href="">Sobre Nós</a>
+                    <a href="">Instagram</a>
+                    <a href="">Contatos</a>
+                </li> 
+                </ul>
+                
+            </nav>
+        </div>
+    </Header>
+    
+</body>
+</html>
